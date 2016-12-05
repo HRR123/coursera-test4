@@ -1,35 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>module2-solution</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Module 3 solution</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
     
-    <body>
-           
-            <h1>H Restaurant's Menu</h1>
-            <div class="row">
-            <div class="col-lg-4 col-md-6">
-               <div class="section">
-                <h2 class="chicken">Chicken</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-               <div class="section">
-                <h2 class="beef">Beef</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ipsa quae dolorem tempora nulla hic earum maiores debitis, dolore modi, ratione consequuntur rerum enim dicta nobis deleniti quos, expedita obcaecati.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12">
-                <div class="section">
-                <h2 class="sushi">Sushi</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, consequuntur. Accusamus suscipit soluta expedita, deserunt itaque hic, aperiam, cumque beatae maxime labore consectetur cum aliquid dicta iste cupiditate incidunt quasi.</p>
-                </div>
-            </div>
-            </div>
-    </body>
-    
+<div id="top"></div>
+<nav id="nav" class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Food, LLC</a>
+    </div>
+	<!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right hidden-lg hidden-md hidden-sm text-center">
+        <li><a href="#chicken">Chicken</a></li>
+        <li><a href="#beef">Beef</a></li>
+        <li><a href="#sushi">Sushi</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+   
+<div class="container">
+	<h1 class="text-center">Our Menu</h1> 	
+
+		<div class="row">
+		<div class="col-lg-4 col-md-6">
+		   <div id="chicken" class="section">
+				<h2 class="chicken text-center">Chicken</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptas et iusto neque, doloribus, suscipit cumque expedita nihil recusandae voluptate repellat, corrupti architecto hic ab, adipisci aliquid nesciunt dolorem non! Aut sequi maxime suscipit sint ab fuga minima dolor deserunt, praesentium obcaecati corporis accusamus atque illo quam sed commodi tempora iste voluptates repellendus magnam! Veniam perspiciatis assumenda magni cumque tenetur, minima consequuntur soluta. Incidunt tempora blanditiis voluptate saepe adipisci odio cumque vero ipsum perferendis asperiores reiciendis, ab tenetur ducimus atque commodi molestiae! Fugiat alias non accusamus quisquam ullam dolorum ipsam hic! Quaerat dolorem perferendis, deleniti cum nemo voluptatum voluptatibus fugiat reiciendis. Nesciunt id est aut enim soluta ratione aspernatur, molestias, exercitationem a deleniti praesentium doloribus veritatis quod aliquid pariatur culpa perferendis magni officia facilis cupiditate itaque voluptatem quidem cum. Distinctio reiciendis placeat non, autem amet obcaecati! Veritatis doloremque ullam soluta odit fuga enim, ad nemo molestiae labore consectetur magni esse quaerat laborum, at id laboriosam iusto. Neque repellendus culpa, nulla animi doloribus vel eum quo distinctio porro vero explicabo blanditiis dolore possimus impedit illum nemo fugit, at alias libero! Similique, provident neque soluta aliquam! Voluptate corporis dolore vero asperiores nemo reprehenderit atque modi, placeat ea ipsa minus quod quaerat odio veniam molestias, porro, aperiam rem sapiente officia rerum cum quis amet? Cupiditate nostrum nemo molestias cumque. Quaerat suscipit excepturi temporibus quasi, molestias odit commodi illum deleniti expedita ex fugiat quo repudiandae, voluptatibus tempora quis labore cum quae accusamus sequi voluptate vitae eos!</p>
+				<p class='hidden-lg hidden-md'><b>(End of Chicken section)</b><a  href="#top"> Back To Top</a></p>
+			</div>
+		</div>  
+		<div class="col-lg-4 col-md-6">
+		   <div id="beef" class="section">
+			<h2 class="beef text-center">Beef</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptas et iusto neque, doloribus, suscipit cumque expedita nihil recusandae voluptate repellat, corrupti architecto hic ab, adipisci aliquid nesciunt dolorem non! Aut sequi maxime suscipit sint ab fuga minima dolor deserunt, praesentium obcaecati corporis accusamus atque illo quam sed commodi tempora iste voluptates repellendus magnam! Veniam perspiciatis assumenda magni cumque tenetur, minima consequuntur soluta. Incidunt tempora blanditiis voluptate saepe adipisci odio cumque vero ipsum perferendis asperiores reiciendis, ab tenetur ducimus atque commodi molestiae! Fugiat alias non accusamus quisquam ullam dolorum ipsam hic! Quaerat dolorem perferendis, deleniti cum nemo voluptatum voluptatibus fugiat reiciendis. Nesciunt id est aut enim soluta ratione aspernatur, molestias, exercitationem a deleniti praesentium doloribus veritatis quod aliquid pariatur culpa perferendis magni officia facilis cupiditate itaque voluptatem quidem cum. Distinctio reiciendis placeat non, autem amet obcaecati! Veritatis doloremque ullam soluta odit fuga enim, ad nemo molestiae labore consectetur magni esse quaerat laborum, at id laboriosam iusto. Neque repellendus culpa, nulla animi doloribus vel eum quo distinctio porro vero explicabo blanditiis dolore possimus impedit illum nemo fugit, at alias libero! Similique, provident neque soluta aliquam! Voluptate corporis dolore vero asperiores nemo reprehenderit atque modi, placeat ea ipsa minus quod quaerat odio veniam molestias, porro, aperiam rem sapiente officia rerum cum quis amet? Cupiditate nostrum nemo molestias cumque. Quaerat suscipit excepturi temporibus quasi, molestias odit commodi illum deleniti expedita ex fugiat quo repudiandae, voluptatibus tempora quis labore cum quae accusamus sequi voluptate vitae eos!</p>
+			   <p class='hidden-lg hidden-md'><b>(End of Beef section)</b><a  href="#top"> Back To Top</a></p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-12">
+			<div  id="sushi" class="section">
+			<h2 class="sushi text-center">Sushi</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptas et iusto neque, doloribus, suscipit cumque expedita nihil recusandae voluptate repellat, corrupti architecto hic ab, adipisci aliquid nesciunt dolorem non! Aut sequi maxime suscipit sint ab fuga minima dolor deserunt, praesentium obcaecati corporis accusamus atque illo quam sed commodi tempora iste voluptates repellendus magnam! Veniam perspiciatis assumenda magni cumque tenetur, minima consequuntur soluta. Incidunt tempora blanditiis voluptate saepe adipisci odio cumque vero ipsum perferendis asperiores reiciendis, ab tenetur ducimus atque commodi molestiae! Fugiat alias non accusamus quisquam ullam dolorum ipsam hic! Quaerat dolorem perferendis, deleniti cum nemo voluptatum voluptatibus fugiat reiciendis. Nesciunt id est aut enim soluta ratione aspernatur, molestias, exercitationem a deleniti praesentium doloribus veritatis quod aliquid pariatur culpa perferendis magni officia facilis cupiditate itaque voluptatem quidem cum. Distinctio reiciendis placeat non, autem amet obcaecati! Veritatis doloremque ullam soluta odit fuga enim, ad nemo molestiae labore consectetur magni esse quaerat laborum, at id laboriosam iusto. Neque repellendus culpa, nulla animi doloribus vel eum quo distinctio porro vero explicabo blanditiis dolore possimus impedit illum nemo fugit, at alias libero! Similique, provident neque soluta aliquam! Voluptate corporis dolore vero asperiores nemo reprehenderit atque modi, placeat ea ipsa minus quod quaerat odio veniam molestias, porro, aperiam rem sapiente officia rerum cum quis amet? Cupiditate nostrum nemo molestias cumque. Quaerat suscipit excepturi temporibus quasi, molestias odit commodi illum deleniti expedita ex fugiat quo repudiandae, voluptatibus tempora quis labore cum quae accusamus sequi voluptate vitae eos!</p>
+				<p class='hidden-lg hidden-md'><b>(End of Sushi section)</b><a href="#top"> Back To Top</a></p>
+			</div>
+		</div>			
+	</div>
+</div>
+
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
